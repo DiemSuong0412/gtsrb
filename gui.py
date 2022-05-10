@@ -56,6 +56,8 @@ classNames = {0: 'Speed limit (20km/h)',
 # Tạo giao diện
 top = tk.Tk()
 top.geometry('800x600')
+img = PhotoImage(file='D:\\19522310\\IE221\\DATA\\traffic-light.png')
+top.iconphoto(False,img)
 top.title('Hệ thống nhận dạng biển báo giao thông')
 top.configure(background='#CDCDCD')
 label = Label(top, background='#CDCDCD', font=('arial', 15, 'bold'))
