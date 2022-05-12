@@ -38,4 +38,4 @@ Tập dữ liệu được sử dụng để đào tạo bộ phân loại biể
 ![](https://user-images.githubusercontent.com/85627308/167726238-4da1b184-7ab9-41d3-a2ee-e9149001ca7c.png)
 
 ## Kết quả thực nghiệm
-
+![](https://user-images.githubusercontent.com/85627308/168159923-48a5b604-d731-4594-91ef-21a34c6a425e.png)
