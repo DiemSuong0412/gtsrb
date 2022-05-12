@@ -42,7 +42,9 @@ Tập dữ liệu được sử dụng để đào tạo bộ phân loại biể
 
 ## Giao diện demo
 Đầu vào là 1 ảnh
+
 ![](https://user-images.githubusercontent.com/85627308/168169405-41c9fe77-3579-4970-82ee-178d20047b24.png)
 
 Đầu vào là video
+
 ![](https://user-images.githubusercontent.com/85627308/168172259-63ef4115-8da6-4af5-ad35-eb46b6b2468b.png)
