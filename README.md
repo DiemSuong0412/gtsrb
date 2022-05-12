@@ -19,7 +19,8 @@ Tập dữ liệu được sử dụng để đào tạo bộ phân loại biể
 - [Sk-learn](https://scikit-learn.org/)
 - [Keras](https://keras.io/)
 - [Opencv](https://opencv.org/)
-- [Matolotlib](https://matplotlib.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Numpy](https://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Tkinter](https://docs.python.org/3/library/tkinter.html)
 
