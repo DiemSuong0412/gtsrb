@@ -55,6 +55,24 @@ classNames = {0: 'Speed limit (20km/h)',
               41: 'End of no passing',
               42: 'End of no passing by vehicles over 3.5 metric tons'}
 
+
+def get_label(label):
+    prohibitory = [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 15, 16]  # (circular, white ground with red border)
+    mandatory = [33, 34, 35, 36, 37, 38, 39, 40]  # (circular, blue ground)
+    danger = [11, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]  # (triangular, white ground with red border)
+
+    if label in prohibitory:
+        new_label = 1
+    elif label in mandatory:
+        new_label = 2
+    elif label in danger:
+        new_label = 3
+    else:
+        new_label = -1
+
+    return new_label
+
+
 # Tạo giao diện
 top = tk.Tk()
 top.geometry('800x600')
@@ -82,7 +100,18 @@ def classify(file_path):
     index = np.argmax(Y_pred)
     sign = classNames[index]
     print(sign)
-    label.configure(foreground='#011638', text=sign)
+    group = get_label(index)
+    if group == 1:
+        type = "Biển báo cấm"
+    elif group == 2:
+        type = "Biển báo bắt buộc"
+    elif group == 3:
+        type = "Biển báo nguy hiểm"
+    else:
+        type = "Biển báo khác"
+    print(type)
+    label.configure(foreground='#011638', text=(type +"\n"+ sign))
+
 
 def grayscale(img):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -99,6 +128,7 @@ def preprocessing(img):
     img = equalize(img)
     img = img / 255  # image normalization
     return img
+
 
 def show_classify_button(file_path):
     classify_b = Button(top, text='Nhận diện', command=lambda: classify(file_path), padx=10, pady=5)
