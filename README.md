@@ -13,7 +13,6 @@ Tập dữ liệu được sử dụng để đào tạo bộ phân loại biể
   - Tập dữ liệu gồm có hơn 50.000 hình ảnh, gồm 43 lớp 
 
 ![43 Classes Meta](https://user-images.githubusercontent.com/85627308/167721365-159d000f-5664-46b3-a048-019d69366696.png)
-<img src="[https://...](https://user-images.githubusercontent.com/85627308/167721365-159d000f-5664-46b3-a048-019d69366696.png)" alt="..." width="250" />
 
 ## Công cụ và Framework hỗ trợ
 - [Tensorflow](https://www.tensorflow.org/)
@@ -36,7 +35,7 @@ Tập dữ liệu được sử dụng để đào tạo bộ phân loại biể
 - Prediction
 - Đánh giá mô hình
 
-![](https://user-images.githubusercontent.com/85627308/167726238-4da1b184-7ab9-41d3-a2ee-e9149001ca7c.png)
+![](https://user-images.githubusercontent.com/85627308/167726238-4da1b184-7ab9-41d3-a2ee-e9149001ca7c.png=250x)
 
 ## Kết quả thực nghiệm
 ![](https://user-images.githubusercontent.com/85627308/168159923-48a5b604-d731-4594-91ef-21a34c6a425e.png)
