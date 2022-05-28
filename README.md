@@ -1,4 +1,5 @@
 # Nhận diện và phân loại biển báo giao thông 
+Đồ án môn học Kỹ thuật lập trình Python - IE221
 ## Giới thiệu
 - Mục tiêu của dự án này là phát hiện và phân loại biển báo giao thông của Đức
 - Đào tạo các mô hình phân loại: KNN, SVM, RF, CNN
