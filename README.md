@@ -1,5 +1,13 @@
 # Nhận diện và phân loại biển báo giao thông 
 Đồ án môn học Kỹ thuật lập trình Python - IE221
+
+File [note_traffic_sign_comparison.ipynb](https://github.com/DiemSuong0412/gtsrb/blob/main/note_traffic_sign_comparison.ipynb) tổng hợp các mô hình.
+
+- Mô hình đã có từ môn Học máy thống kê - DS102 (KNN, SVM, CNN) với độ chính xác cao hơn.
+- Mô hình Random Forest, XGBoot vừa được đào tạo thêm trong dự án này.
+    
+File [traffic_sign_clf.py](https://github.com/DiemSuong0412/gtsrb/blob/main/traffic_sign_clf.py) mô hình CNN được tùy chỉnh phục vụ mục tiêu đề ra trong đồ án môn học này. Lý do chọn CNN là vì dựa trên kết quả so sánh giữa các mô hình thì CNN cho độ chính xác cao nhất, là mô hình phân loại tốt nhất.
+
 ## Giới thiệu
 - Mục tiêu của dự án này là phát hiện và phân loại biển báo giao thông của Đức
 - Đào tạo các mô hình phân loại: KNN, SVM, RF, CNN
