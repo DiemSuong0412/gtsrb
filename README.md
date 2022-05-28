@@ -9,14 +9,14 @@ File [note_traffic_sign_comparison.ipynb](https://github.com/DiemSuong0412/gtsrb
 File [traffic_sign_clf.py](https://github.com/DiemSuong0412/gtsrb/blob/main/traffic_sign_clf.py) mô hình CNN được tùy chỉnh phục vụ mục tiêu đề ra trong đồ án môn học này. Lý do chọn CNN là vì dựa trên kết quả so sánh giữa các mô hình thì CNN cho độ chính xác cao nhất, là mô hình phân loại tốt nhất.
 
 ## Giới thiệu
-- Mục tiêu của dự án này là phát hiện và phân loại biển báo giao thông của Đức
+- Mục tiêu của dự án này là đào tạo một mô hình phát hiện và phân loại biển báo giao thông của Đức
 - Đào tạo các mô hình phân loại: KNN, SVM, RF, CNN
 - Bài toán phân loại 1 ảnh nhiều lớp
 - Input: Một ảnh hoặc video chứa biển báo giao thông.
 - Output: Nhận dạng và phân loại biển báo giao thông đó.
 
 ## Dataset 
-Tập dữ liệu được sử dụng để đào tạo bộ phân loại biển báo giao thông là [Germen Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) 
+Tập dữ liệu được sử dụng để đào tạo mô hình phân loại biển báo giao thông là [Germen Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) 
   - Tập dữ liệu công khai tại Kaggle, được cập nhật bởi cộng đồng những người làm việc trong lĩnh vực ML, AI mỗi ngày và là một trong những thư viện tập dữ liệu trực tuyến lớn nhất.
   - Ngoài ra, GTSRB là một thử thách phân loại nhiều lớp, được tổ chức tại International Joint Conference on Neural Networks (IJCNN) 2011.
   - Tập dữ liệu gồm có hơn 50.000 hình ảnh, gồm 43 lớp 
